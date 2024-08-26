@@ -51,7 +51,7 @@ const Register = () => {
 
         try {
             console.log(newUser);
-            const response = await axios.post('http://localhost:3000/usuarios/registro', newUser);
+            const response = await axios.post('https://games-swtich-store-api.onrender.com/usuarios/registro', newUser);
             
             if (response.data.id_usuario) {
                 Swal.fire({

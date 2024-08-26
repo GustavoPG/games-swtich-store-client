@@ -21,7 +21,7 @@ const EditGame = () => {
     useEffect(() => {
         const token = localStorage.getItem('token');
 
-        fetch(`http://localhost:3000/publicaciones/${id_juego}`, {
+        fetch(`https://games-swtich-store-api.onrender.com/publicaciones/${id_juego}`, {
             headers: {
                 'Authorization': `Bearer ${token}`
             }
@@ -33,7 +33,7 @@ const EditGame = () => {
             })
             .catch(error => console.error("Error al cargar los datos del juego:", error));
 
-        fetch('http://localhost:3000/categorias')
+        fetch('https://games-swtich-store-api.onrender.com/categorias')
             .then(response => response.json())
             .then(data => setCategories(data))
             .catch(error => console.error("Error al cargar las categorías:", error));
@@ -52,7 +52,7 @@ const EditGame = () => {
         e.preventDefault();
         const token = localStorage.getItem('token');
 
-        fetch(`http://localhost:3000/publicaciones/${id_juego}`, {
+        fetch(`https://games-swtich-store-api.onrender.com/publicaciones/${id_juego}`, {
             method: 'PUT',
             headers: {
                 'Authorization': `Bearer ${token}`,

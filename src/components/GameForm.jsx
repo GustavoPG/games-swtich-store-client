@@ -22,7 +22,7 @@ const GameForm = ({ onAddGame }) => {
         // Cargar las categorías desde la base de datos cuando el componente se monta
         const fetchCategories = async () => {
             try {
-                const response = await fetch('http://localhost:3000/categorias');
+                const response = await fetch('https://games-swtich-store-api.onrender.com/categorias');
                 const data = await response.json();
                 setCategories(data);
             } catch (error) {

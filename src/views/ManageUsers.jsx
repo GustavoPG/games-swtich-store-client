@@ -11,7 +11,7 @@ const ManageUsers = () => {
     useEffect(() => {
         const token = localStorage.getItem('token');
 
-        fetch('http://localhost:3000/usuarios', {
+        fetch('https://games-swtich-store-api.onrender.com/usuarios', {
             headers: {
                 'Authorization': `Bearer ${token}`
             }
@@ -38,7 +38,7 @@ const ManageUsers = () => {
             confirmButtonText: 'Sí, eliminarlo'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:3000/usuarios/${userId}`, {
+                fetch(`https://games-swtich-store-api.onrender.com/usuarios/${userId}`, {
                     method: 'DELETE',
                     headers: {
                         'Authorization': `Bearer ${token}`,

@@ -12,7 +12,7 @@ const ManageGames = () => {
         // Cargar la lista de juegos desde el backend
         const token = localStorage.getItem('token');
 
-        fetch('http://localhost:3000/publicaciones', {  // Ajusta la URL según tu backend
+        fetch('https://games-swtich-store-api.onrender.com/publicaciones', {  // Ajusta la URL según tu backend
             headers: {
                 'Authorization': `Bearer ${token}`
             }
@@ -39,7 +39,7 @@ const ManageGames = () => {
             confirmButtonText: 'Sí, eliminarlo'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:3000/publicaciones/${gameId}`, {
+                fetch(`https://games-swtich-store-api.onrender.com/publicaciones/${gameId}`, {
                     method: 'DELETE',
                     headers: {
                         'Authorization': `Bearer ${token}`,

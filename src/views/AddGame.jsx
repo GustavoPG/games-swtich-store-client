@@ -7,7 +7,7 @@ const AddGame = () => {
     const addGameToDatabase = async (newGame) => {
         const token = localStorage.getItem('token'); // Asegúrate de que 'token' está en localStorage y es el correcto
         try {
-            const response = await fetch('http://localhost:3000/publicaciones', {
+            const response = await fetch('https://games-swtich-store-api.onrender.com/publicaciones', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

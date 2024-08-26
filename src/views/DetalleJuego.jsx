@@ -17,7 +17,7 @@ const DetalleJuego = ({ user, onAddToWishlist }) => {
     useEffect(() => {
         const fetchGameDetails = async () => {
             try {
-                const response = await axios.get(`http://localhost:3000/publicaciones/${id_juego}`);
+                const response = await axios.get(`https://games-swtich-store-api.onrender.com/publicaciones/${id_juego}`);
                 setJuego(response.data);
             } catch (error) {
                 console.error("Error fetching game details: ", error);

@@ -21,7 +21,7 @@ const Profile = () => {
             const token = localStorage.getItem('token');
 
             try {
-                const userResponse = await axios.get('http://localhost:3000/usuarios/perfil', {
+                const userResponse = await axios.get('https://games-swtich-store-api.onrender.com/usuarios/perfil', {
                     headers: {
                         'Authorization': `Bearer ${token}`
                     }
@@ -31,7 +31,7 @@ const Profile = () => {
                     setUser(userResponse.data);
                     
                     // Obtener los favoritos del usuario
-                    const favoritesResponse = await axios.get(`http://localhost:3000/favoritos`, {
+                    const favoritesResponse = await axios.get(`https://games-swtich-store-api.onrender.com/favoritos`, {
                         headers: {
                             'Authorization': `Bearer ${token}`
                         }
@@ -55,7 +55,7 @@ const Profile = () => {
     const handleRemoveFromFavorites = async (id_favorito) => {
         const token = localStorage.getItem('token');
         try {
-            const response = await axios.delete(`http://localhost:3000/favoritos/${id_favorito}`, {
+            const response = await axios.delete(`https://games-swtich-store-api.onrender.com/favoritos/${id_favorito}`, {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }

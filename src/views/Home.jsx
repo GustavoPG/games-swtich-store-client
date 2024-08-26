@@ -22,7 +22,7 @@ const Home = ({ user, onAddToWishlist }) => {
 
     useEffect(() => {
         // Obtener publicaciones (juegos) desde la API
-        axios.get('http://localhost:3000/publicaciones')
+        axios.get('https://games-swtich-store-api.onrender.com/publicaciones')
             .then(response => {
                 setJuegos(response.data);
                 setFilteredJuegos(response.data);
@@ -30,7 +30,7 @@ const Home = ({ user, onAddToWishlist }) => {
             .catch(error => console.error("Error fetching games: ", error));
 
         // Obtener categorías desde la API
-        axios.get('http://localhost:3000/categorias')
+        axios.get('https://games-swtich-store-api.onrender.com/categorias')
             .then(response => {
                 setCategories(response.data);
             })
@@ -95,7 +95,7 @@ const Home = ({ user, onAddToWishlist }) => {
 
     const handleAddToWishlist = async (juego) => {
         try {
-            const response = await axios.post('http://localhost:3000/favoritos', {
+            const response = await axios.post('https://games-swtich-store-api.onrender.com/favoritos', {
                 id_publicacion: juego.id_publicacion
             }, {
                 headers: {
