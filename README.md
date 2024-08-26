@@ -1,0 +1,1 @@
+# games-swtich-store-client
