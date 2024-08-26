@@ -1,0 +1,112 @@
+[
+    {
+      "id_juego": "1",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000068688/1c5583f6bbce5bccdc923c25c35ba8f42128b55df84f4a2fbeea74b6d1d1516e",
+      "titulo": "Super Mario Bros Wonder",
+      "descripción": "¡El estilo de juego clásico de los juegos de Mario será toda una locura con la adición de la Flor Maravilla en el juego Super Mario Bros. Wonder!.",
+      "precio": "58990",
+      "stock": "9",
+      "categoría": [1, 2]
+    },
+    {
+      "id_juego": "2",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000045182/74fb568c43f9c43895db89d4ebb2b510894de7141b066b953aebda427a46af87",
+      "titulo": "NieR:Automata The End of YoRHa Edition",
+      "descripción": "NieR:Automata The End of YoRHa Edition es la versión, del aclamado y premiado juego de rol y acción postapocalíptico.",
+      "precio": "56000",
+      "stock": "5",
+      "categoría": [3, 4]
+    },
+    {
+      "id_juego": "3",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000042924/c7e6839975afd46893274cf7cfdb63b39a54d6f700938bcd1c8849ac66755d00",
+      "titulo": "Metroid Dread",
+      "descripción": "Después de investigar una misteriosa transmisión del planeta ZDR, Samus se enfrenta a un enemigo que la atrapa en este misterioso mundo.",
+      "precio": "58990",
+      "stock": "7",
+      "categoría": [3, 4]
+    },
+    {
+      "id_juego": "4",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000034439/ccb69a8bf2746b2dc0a9b11a9e48c9893baa1631486326f0d681b7a36385221f",
+      "titulo": "Super Mario™ 3D World + Bowser’s Fury",
+      "descripción": "Multiplica la diversión al formar un equipo o compitiendo con tus amigos mediante el juego local  o tambien en línea.",
+      "precio": "48990",
+      "stock": "1",
+      "categoría": [1, 2]
+    },
+    {
+      "id_juego": "5",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000046405/a59d040ba1c59da35da603df012d1c18d00a36c55981c8b620cec93b6bfa3576",
+      "titulo": "Kirby and the Forgotten Land",
+      "descripción": "Desplázate flotando en una nueva aventura como Kirby, la poderosa bola rosada. Explora y descubre un misterioso mundo.",
+      "precio": "48990",
+      "stock": "2",
+      "categoría": [1, 2]
+    },
+    {
+      "id_juego": "6",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58",
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "descripción": "Olvida todo lo que sabes acerca de los juegos de la serie The Legend of Zelda. Explora y descubre un mundo lleno de aventuras.",
+      "precio": "48990",
+      "stock": "8",
+      "categoría": [1, 2]
+    }
+    ,
+    {
+      "id_juego": "7",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000049936/a2f2110d63e18a774199c31dceb310a562b0d8d072c7b4a92dd4faa36f1bfc71",
+      "titulo": "Mario Strikers: Battle League",
+      "descripción": "Les presentamos strike, un deporte de 5 contra 5 inspirado en el fútbol, ¡así que haz lo que tengas que hacer para conseguir la victoria!.",
+      "precio": "9999",
+      "stock": "2",
+      "categoría": [5, 2]
+    },
+    {
+      "id_juego": "8",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000063810/3c3dbf6706064dd82bd56a288f0f771d91e19f5a03444c181a813a74c341487b",
+      "titulo": "NBA 2K24 Edición Kobe Bryant",
+      "descripción": "Arma tu equipo y vive el baloncesto en NBA 2K24. Disfruta una experiencia con opciones ilimitadas de MyPLAYER, en MyCAREER.",
+      "precio": "31500",
+      "stock": "3",
+      "categoría": [5, 2]
+    }
+    ,
+    {
+      "id_juego": "9",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000066930/f66a8e393d787e9202e6eb6723447948f2c16e675c0b4779c8359669f49d0387",
+      "titulo": "Attack Strategy - Battle Simulator Accurate",
+      "descripción": "¡Embárcate en una aventura épica de estrategia! Con 12 niveles únicos y desafiantes, tu destreza estratégica se pondrá a prueba.",
+      "precio": "25500",
+      "stock": "3",
+      "categoría": [6, 4]
+    },
+    {
+      "id_juego": "10",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000003622/e9699e4dc2d99af796a396b18c43bee39ba7742ab3c9aef2b5d6a880714ea528",
+      "titulo": "Street Fighter 30th Anniversary Collection",
+      "descripción": "Celebra el legado histórico de Street Fighter con la colección de aniversario. Esta increíble colección de 12 títulos de Street Fighter",
+      "precio": "10500",
+      "stock": "9",
+      "categoría": [7, 2]
+    },
+    {
+      "id_juego": "11",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_600/ncom/software/switch/70010000010192/c7d855443d9ed9d8aa7638f548044a2987c7f22a6dab3136916fcc811039a64b",
+      "titulo": "Fornite",
+      "descripción": "Sé la última persona en pie en Batalla campal, explora y sobrevive en LEGO Fortnite, deja atrás a tus rivales en Rocket Racing o sé la estrella de Fortnite Festival.",
+      "precio": "0",
+      "stock": "9",
+      "categoría": [6, 2]
+    },
+    {
+      "id_juego": "12",
+      "url_imagen_juego": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000042351/875a656d7caf7c1a1dec74522943fcf06eb700fa8ccc94cd36b4c3c192f29109",
+      "titulo": "Teenage Mutant Ninja Turtles: The Collection",
+      "descripción": "Teenage Mutant Ninja Turtles: The Cowabunga Collection reúne trece juegos clásicos de TMNT de Konami en un increíble paquete.",
+      "precio": "56000",
+      "stock": "10",
+      "categoría": [1, 2]
+    }
+]

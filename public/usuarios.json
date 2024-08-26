@@ -1,0 +1,24 @@
+[
+    {
+        "id_usuario": "1",
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juan.perez@gmail.com",
+        "contrasena": "123456",
+        "fecha_registro": "10-10-2000",
+        "avatar": "https://img.freepik.com/premium-psd/3d-illustration-business-man-with-glasses_23-2149436193.jpg?w=740",
+        "rol": "1",
+        "wishlist": []
+    },
+    {   
+        "id_usuario": "2",
+        "nombre": "Pedro",
+        "apellido": "Gonzalez",
+        "email": "pedro.gonzalez@gmail.com",
+        "contrasena": "123456",
+        "fecha_registro": "10-05-2000",
+        "avatar": "https://img.freepik.com/free-psd/3d-illustration-person-with-rainbow-sunglasses_23-2149436196.jpg?w=740&t=st=1723169578~exp=1723170178~hmac=20e933b2709b73b1288f407212d9b4d0440b541ab2428b04ac5c74c0a7886da9",
+        "rol": "2",
+        "wishlist": []
+    }
+]
